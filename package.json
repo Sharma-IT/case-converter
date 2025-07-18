@@ -1,5 +1,5 @@
 {
-  "name": "case-converter",
+  "name": "@shubham-tech/case-converter",
   "version": "1.0.0",
   "description": "Ultra-lean and fast CLI tool for converting text to various case formats",
   "main": "dist/index.js",
