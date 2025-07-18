@@ -1,7 +1,7 @@
 import { spawn } from 'child_process';
 import { join } from 'path';
 
-const CLI_PATH = join(__dirname, '../dist/cli.js');
+const CLI_PATH = join(__dirname, '../dist/index.js');
 
 describe('CLI Integration Tests', () => {
   // Helper function to run CLI and capture output
