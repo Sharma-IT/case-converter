@@ -1,0 +1,43 @@
+{
+  "name": "case-converter",
+  "version": "1.0.0",
+  "description": "Ultra-lean and fast CLI tool for converting text to various case formats",
+  "main": "dist/index.js",
+  "bin": {
+    "case-converter": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "dev": "tsc --watch",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/cli.js"
+  },
+  "keywords": [
+    "cli",
+    "case-converter",
+    "text-transform",
+    "string-manipulation",
+    "case-conversion"
+  ],
+  "author": "Shubham Sharma <shubhamsharma.emails@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.14",
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  }
+}
