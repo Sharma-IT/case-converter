@@ -1,6 +1,6 @@
 # Case Converter
 
-[![npm version](https://badge.fury.io/js/case-converter.svg)](https://badge.fury.io/js/case-converter)
+[![npm version](https://badge.fury.io/js/%40shubham-tech%2Fcase-converter.svg)](https://badge.fury.io/js/%40shubham-tech%2Fcase-converter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An ultra-lean and fast CLI tool for converting text to various case formats. Built with TypeScript and optimised for performance whilst maintaining readability.
